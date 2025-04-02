@@ -14,7 +14,7 @@ const config = {
   // Auto Features
   AUTO_STATUS_SEEN: parseBoolean(process.env.AUTO_STATUS_SEEN, true),
   AUTO_STATUS_REACT: parseBoolean(process.env.AUTO_STATUS_REACT, true),
-  AUTO_STATUS_REPLY: parseBoolean(process.env.AUTO_STATUS_REPLY, true),
+  AUTO_STATUS_REPLY: parseBoolean(process.env.AUTO_STATUS_REPLY, false),
   AUTO_STATUS_REPLY_VOICE: parseBoolean(process.env.AUTO_STATUS_REPLY_VOICE, false),
   AUTO_STATUS_REPLY_VOICE_MULTI: parseBoolean(process.env.AUTO_STATUS_REPLY_VOICE_MULTI, false),
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || "*📍 Auto Status Seen Bot By ✪⏤Roye king*",
